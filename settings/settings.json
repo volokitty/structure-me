@@ -1,0 +1,15 @@
+{
+    "css": {
+        "style.css": 1
+    },
+    "fonts": 0,
+    "img": 0,
+    "js": {
+        "script.js": 1
+    },
+    "scss": {
+        "style.scss": 1
+    },
+    ".jshintrc": "jshint",
+    "index.html": 1
+}
