@@ -8,8 +8,8 @@
         "script.js": "emptyFile"
     },
     "scss": {
-        "style.scss": "style.scss"
+        "style.scss": "file"
     },
-    ".jshintrc": "jshint",
+    ".jshintrc": "file",
     "index.html": "emptyFile"
 }
