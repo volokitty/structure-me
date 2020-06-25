@@ -18,7 +18,7 @@ def parse(dictionary, path):
             os.mkdir(os.path.join(path, key, ''))
             parse(dictionary[key], os.path.join(path, key, ''))
 
-        elif dictionary[key] == 'file': # File with your data
+        elif dictionary[key] == 'file': # file with your data
             shutil.copy2(os.path.join(cwd.parent.parent, f'settings\\{key}'), os.path.join(path, f'{key}'))
 
 def main():
