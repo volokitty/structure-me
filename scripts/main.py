@@ -4,7 +4,7 @@ import os, sys, json, shutil
 
 path = sys.argv[1].replace('\\', '\\\\') + '\\\\'
 
-def parse(dictionary, path='D:\\Code\\test\\'):  
+def parse(dictionary, path):  
     for key in dictionary:
         if dictionary[key] == "emptyFolder": # empty folder
             os.mkdir(path + key + r'\\')
