@@ -9,4 +9,4 @@ winreg.SetValueEx(key, 'Icon', 0, winreg.REG_SZ, main_script + f' "{cwd}\\main.p
 
 
 command_key = winreg.CreateKeyEx(key, 'command')
-winreg.SetValue(command_key, '', winreg.REG_SZ, main_script + f' "{cwd}\\main.py"')
+winreg.SetValue(command_key, '', winreg.REG_SZ, main_script + f' "{cwd}\\main.py" "%V"')
