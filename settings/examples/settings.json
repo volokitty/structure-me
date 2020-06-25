@@ -1,0 +1,14 @@
+{
+    "css": {
+        "style.css": "emptyFile"
+    },
+    "fonts": "emptyFolder",
+    "img": "emptyFolder",
+    "js": {
+        "script.js": "emptyFile"
+    },
+    "scss": {
+        "style.scss": "file"
+    },
+    "index.html": "emptyFile"
+}
