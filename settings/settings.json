@@ -1,15 +1,15 @@
 {
     "css": {
-        "style.css": 1
+        "style.css": "emptyFile"
     },
-    "fonts": 0,
-    "img": 0,
+    "fonts": "emptyFolder",
+    "img": "emptyFolder",
     "js": {
-        "script.js": 1
+        "script.js": "emptyFile"
     },
     "scss": {
-        "style.scss": 1
+        "style.scss": "style.scss"
     },
     ".jshintrc": "jshint",
-    "index.html": 1
+    "index.html": "emptyFile"
 }
