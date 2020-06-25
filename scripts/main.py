@@ -19,7 +19,7 @@ def parse(dictionary, path):
             parse(dictionary[key], os.path.join(path, key, ''))
 
         elif dictionary[key] == 'file': # file with your data
-            shutil.copy2(os.path.join(cwd.parent.parent, f'settings\\{key}'), os.path.join(path, f'{key}'))
+            shutil.copy2(os.path.join(cwd.parent.parent, f'settings\\templates\\{key}'), os.path.join(path, f'{key}'))
 
 def main():
     json_data = open(os.path.join(cwd.parent.parent, r'settings\settings.json'), 'r')
