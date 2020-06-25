@@ -17,12 +17,12 @@ def parse(dictionary, path):
         elif type(dictionary[key]) == type(dictionary): # directory
             os.mkdir(os.path.join(path, key, ''))
             parse(dictionary[key], os.path.join(path, key, ''))
-            
+
         elif dictionary[key] == 'file': # File with your data
             shutil.copy2(os.path.join(cwd.parent.parent, f'settings\\{key}'), os.path.join(path, f'{key}'))
 
 def main():
-    json_data = open(r'D:\\Code\\scripts\\2020\\structure-me\\settings\\settings.json', 'r')
+    json_data = open(os.path.join(cwd.parent.parent, r'settings\settings.json'), 'r')
 
     loaded = json.load(json_data)
 
