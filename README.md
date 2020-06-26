@@ -2,6 +2,7 @@
 A program to create a file and folder structure for your projects directly from the context menu.
 All you have to do is follow the installation instructions and configure the settings.json file to fit you. 
 **Let's do it together! :smile:**
+![Image of structure-me](https://raw.githubusercontent.com/volokitty/structure-me/master/settings/img/structure-me.png)
 
 # Requirements
 * Python 3.4+
