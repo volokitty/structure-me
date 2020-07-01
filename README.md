@@ -52,6 +52,8 @@ There are four types of values
 }
 ```
 
+5. Change the YOUR_PATH variable in main.py to the path where you installed the program.
+
 # You did it!
 And that's it! Good luck with all the development.
 
