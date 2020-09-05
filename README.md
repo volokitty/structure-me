@@ -58,3 +58,6 @@ There are four types of values
 And that's it! Good luck with all the development.
 
 Vlad Volokitin, @volokitty. 2020
+
+# License
+See the [LICENSE](https://github.com/volokitty/structure-me/blob/master/LICENSE) file for license rights and limitations (GPL-3.0).
